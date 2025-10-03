@@ -1,0 +1,16 @@
+@media (max-width: 375px) {
+  .wrapper {
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas:
+      ". . ."
+      ". content ."
+      ". content ."
+      ". . .";
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  header, nav, .side, .ad, footer {
+    display: none;
+  }
+}
